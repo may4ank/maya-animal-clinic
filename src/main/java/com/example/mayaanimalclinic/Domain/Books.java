@@ -30,7 +30,6 @@ public class Books {
                 ", book_name='" + book_name + '\'' +
                 ", book_num=" + book_num +
                 ", publisher=" + publisher +
-                ", authors=" + authors +
                 '}';
     }
 
