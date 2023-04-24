@@ -39,7 +39,6 @@ public class Publisher {
         return "Publisher{" +
                 "id=" + id +
                 ", Fname='" + Fname + '\'' +
-                ", books=" + books +
                 '}';
     }
 

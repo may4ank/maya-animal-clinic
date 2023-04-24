@@ -19,6 +19,17 @@
         <td th:text="${book.book_name}">love 1</td>
         <td th:text="${book.publisher.fname}">maya love</td>
     </tr>
+
+    <tr>
+        <th>ID</th>
+        <th>Publisher Name</th>
+        <th>Publisher Books</th>
+    </tr>
+    <tr th:each="publisher : ${publishers}">
+        <td th:text="${publisher.id}">1234</td>
+        <td th:text="${publisher.fname}">love 1</td>
+        <td th:text="${publisher.books}">maya love</td>
+    </tr>
 </table>
 </body>
 </html>
