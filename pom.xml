@@ -40,7 +40,6 @@
 
     <scm>
         <connection>scm:git:git@github.com:may4ank/maya-animal-clinic.git</connection>
-      <tag>maya-animal-clinic-0.0.1</tag>
-  </scm>
+    </scm>
 
 </project>
